@@ -21,7 +21,7 @@ O projeto apresenta a palavra **Ibmec** em destaque no centro da maquete, susten
 
 | 3. Visão Geral do Cenário |
 | :---: | :---: |
-![Cenário Geral](images/Imagem4_CenarioGeral.png) |
+|![Cenário Geral](images/Imagem4_CenarioGeral.png) |
 
 ---
 
