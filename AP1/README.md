@@ -15,13 +15,13 @@ O projeto apresenta a palavra **Ibmec** em destaque no centro da maquete, susten
 
 ## 📸 Capturas de Tela da Cena
 
-| 1. Visão da Câmera Principal | 2. Destaque Ibmec + Prédio Barra |
+| 1. Visão da Câmera Principal (Logo) | 2. Destaque Ibmec + Prédio Barra |
 | :---: | :---: |
-| ![Câmera Principal](images/Imagem1_CamPrincipal.png) | ![Prédio Ibmec Barra](images/Imagem2_Ibmec_Predio.png) |
+| ![Câmera Principal - Logo](IBMEC_logo.png) | ![Prédio Ibmec Barra](IBMEC_Predio.png) |
 
 | 3. Visão Geral do Cenário |
 | :---: |
-| ![Cenário Geral](images/Imagem4_CenarioGeral.png) |
+| ![Cenário Geral](IBMEC_cenario.png) |
 
 ---
 
