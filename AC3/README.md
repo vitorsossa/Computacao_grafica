@@ -1,1 +1,22 @@
-Relatório Técnico — AC04: Modelos de Iluminação e MateriaisAluno: Vitor Sossai | Curso: CDIA (IBMEC Barra) | Software: Blender 4.5 LTS1. Identificação dos Objetos e Materiais:OBJ_Predio_IbmecBarra $\rightarrow$ Recebeu o material MAT_Lambert (superfície fosca, reflexão puramente difusa).01_Palavra_Ibmec $\rightarrow$ Recebeu o material MAT_Phong (superfície polida, brilho especular moderado).OBJ_Ponte_Conexao $\rightarrow$ Recebeu o material MAT_BlinnPhong (superfície polida, brilho especular mais intenso e concentrado).2. Configuração da Luz Principal:Utilizada uma luz do tipo Area (Luz_Principal_Area) posicionada nas coordenadas relativas $(5, -5, 6)$, com energia ajustada para 600W e tamanho de 4.0, produzindo sombras suaves e destacando o volume tridimensional dos elementos.3. Parâmetros Principais dos Materiais:MAT_Lambert: Nó Diffuse BSDF direto com cor-base cinza-neutro (0.75, 0.75, 0.8).MAT_Phong: Principled BSDF com cor azul (0.15, 0.45, 0.75), Roughness = 0.2 e Specular = 0.5.MAT_BlinnPhong: Principled BSDF com cor verde (0.2, 0.8, 0.4), Roughness = 0.1 e Specular = 0.8.4. Comparação de Aparências Observadas:O material Lambert comportou-se de maneira totalmente opaca e fosca, espalhando a luz uniformemente sem reflexos direcionados. Os modelos Phong e Blinn-Phong exibiram highlights especulares perceptíveis, sendo que a configuração de menor rugosidade do Blinn-Phong gerou um ponto de brilho mais pontual e intenso, ideal para simular o metal estaiado da ponte.5. Nota Técnica sobre as Aproximações:Destaca-se que o Principled BSDF do Blender 4.5 é um shader físico complexo baseado em microfacetas (GGX), servindo neste trabalho como uma aproximação visual didática e controlada para contrapor os modelos matemáticos clássicos de Phong e Blinn-Phong.
+Relatório Técnico — AC04: Modelos de Iluminação e Materiais
+
+Aluno: Vitor Sossai | Curso: CDIA (IBMEC Barra) | Software: Blender 4.5 LTS
+
+Identificação dos Objetos e Materiais:
+OBJ_Predio_IbmecBarra $\rightarrow$ Recebeu o material MAT_Lambert (superfície fosca, reflexão puramente difusa).
+01_Palavra_Ibmec $\rightarrow$ Recebeu o material MAT_Phong (superfície polida, brilho especular moderado).
+OBJ_Ponte_Conexao $\rightarrow$ Recebeu o material MAT_BlinnPhong (superfície polida, brilho especular mais intenso e concentrado).
+2. Configuração da Luz Principal:
+
+Utilizada uma luz do tipo Area (Luz_Principal_Area) posicionada nas coordenadas relativas $(5, -5, 6)$, com energia ajustada para 600W e tamanho de 4.0, produzindo sombras suaves e destacando o volume tridimensional dos elementos.
+3. Parâmetros Principais dos Materiais:
+
+MAT_Lambert: Nó Diffuse BSDF direto com cor-base cinza-neutro (0.75, 0.75, 0.8).
+MAT_Phong: Principled BSDF com cor azul (0.15, 0.45, 0.75), Roughness = 0.2 e Specular = 0.5.
+MAT_BlinnPhong: Principled BSDF com cor verde (0.2, 0.8, 0.4), Roughness = 0.1 e Specular = 0.8.
+4. Comparação de Aparências Observadas:
+
+O material Lambert comportou-se de maneira totalmente opaca e fosca, espalhando a luz uniformemente sem reflexos direcionados. Os modelos Phong e Blinn-Phong exibiram highlights especulares perceptíveis, sendo que a configuração de menor rugosidade do Blinn-Phong gerou um ponto de brilho mais pontual e intenso, ideal para simular o metal estaiado da ponte.
+5. Nota Técnica sobre as Aproximações:
+
+Destaca-se que o Principled BSDF do Blender 4.5 é um shader físico complexo baseado em microfacetas (GGX), servindo neste trabalho como uma aproximação visual didática e controlada para contrapor os modelos matemáticos clássicos de Phong e Blinn-Phong. 
